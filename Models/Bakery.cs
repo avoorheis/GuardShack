@@ -1,0 +1,42 @@
+public class Bakery
+{
+    public string BakeryID { get; set; }
+    public string Company { get; set; }
+    public string BakeryName { get; set; }
+    public double? MaxWeightAllowed { get; set; }
+    public string CorpCode { get; set; }
+    public string Attention { get; set; }
+    public string Voice { get; set; }
+    public string Fax { get; set; }
+    public string BillingAddress { get; set; }
+    public string BillingCity { get; set; }
+    public string BillingState { get; set; }
+    public string BillingZip { get; set; }
+    public string RailYard { get; set; }
+    public string RouteID { get; set; }
+    public string ShipAddress { get; set; }
+    public string ShipCity { get; set; }
+    public string ShipState { get; set; }
+    public string ShipZipcode { get; set; }
+    public string InvoiceAddress { get; set; }
+    public string InvoiceCity { get; set; }
+    public string InvoiceState { get; set; }
+    public string InvoiceZipcode { get; set; }
+    public string PriceGroup { get; set; }
+    public string Location { get; set; }
+    public string CostCenter { get; set; }
+    public string BakeryAccount { get; set; }
+    public string BrokerName { get; set; }
+    public string BrokerAddress { get; set; }
+    public string BrokerCity { get; set; }
+    public string BrokerState { get; set; }
+    public string BrokerZip { get; set; }
+    public string BrokerPhone { get; set; }
+    public string BrokerFax { get; set; }
+    public bool? ICTBakeryFlour { get; set; }
+    public bool? ICTBakeryWheat { get; set; }
+    public bool? CoMan { get; set; }
+    public bool? CrossBorderMarkUp { get; set; }
+    public bool? Active { get; set; }
+    public bool? RailInvoiceToToledo { get; set; }
+}
